@@ -1,7 +1,7 @@
 conn = ActiveRecord::Base.connection
 
 conn.tables.each do |table|
-  conn.drop_table table
+  conn.drop_table table, cascade: true
 end
 
 config = conn.instance_variable_get(:@config)
