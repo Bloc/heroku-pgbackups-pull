@@ -6,7 +6,7 @@ database with `pg_restore`.  It's like `heroku db:pull` but fiftyfold faster.
 
 ## Installation
 
-    heroku plugins:install https://github.com/tpope/heroku-pgbackups-pull.git
+    heroku plugins:install https://github.com/Bloc/heroku-pgbackups-pull.git
 
 ## License
 
